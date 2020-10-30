@@ -1,7 +1,7 @@
 local w, h = draw.GetScreenSize()
 
 local font_names = {
-	[0] = "Tahoma",
+	[0] = "Verdana",
 	[1] = "Verdana"
 }
 
