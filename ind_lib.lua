@@ -12,7 +12,7 @@ local tab = gui.Tab(ref, "tab_ind_opt", "Indicators Settings")
 local gb = gui.Groupbox(tab, "Size", 15, 15, 300, 900)
 local gb_1 = gui.Groupbox(tab, "Position", 325, 15, 300, 900)
 
-local fnt_name = gui.Combobox(gb, "fnt_name", "Font Name", "Tahoma", "Verdana")
+local fnt_name = gui.Combobox(gb, "fnt_name", "Font Name", "Calibri", "Verdana")
 local fnt_size = gui.Slider(gb, "fnt_size", "Font Size", 27, 12, 48)
 local fnt_weight = gui.Slider(gb, "fnt_weight", "Font Weight", 600, 100, 4000)
 
