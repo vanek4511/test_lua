@@ -28,17 +28,12 @@ xpos:SetDescription("Sets X Position for the indicators")
 ypos:SetDescription("Sets starting Y Positiong for the indicators")
 dist:SetDescription("Sets distance between each indicators")
 
-local font = draw.CreateFont(font_names[fnt_name:GetValue()], fnt_size:GetValue(), fnt_weight:GetValue())
+local font = draw.CreateFont(Calibri, 25, 1000)
 
 local obj = {}
 
 Indicator = {text = "", color = {255, 255, 255, 255}, visible = true, drawCircle = false, circleP = 0, circleT = 1, circleR = 1, circleX = 0, circleY = 0}
 
-Indicator.font = {
-	name = font_names[fnt_name:GetValue()],
-	size = fnt_size:GetValue(),
-	weight = fnt_weight:GetValue()
-}
 
 function Indicator:New(text, color, visible)
 	i = i + 1
